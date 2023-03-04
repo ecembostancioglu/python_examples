@@ -114,3 +114,20 @@ print('_______________________')
 manager_1.addWorker(dev_2)
 manager_1.listWorkers()
 
+#isinstance()
+
+print(isinstance(dev_1,Manager))  #False
+
+print(isinstance(dev_1,Staff))  #True
+
+print(isinstance('EcemB', str))  #True
+
+print(isinstance(35, str))  #False
+
+#issubclass()
+
+print(issubclass(Developer,Staff))  #True
+
+print(issubclass(Manager,Developer))  #False
+
+print(issubclass(Manager,Staff))  #True
